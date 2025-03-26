@@ -5,4 +5,5 @@ I'm a passionate computer science student at the University of Birmingham, divin
 I'm comfortable working across multiple programming languages and frameworks, including:
 
 _Languages_: JavaScript, Python, Java, C#, C, React.js, Tailwind, Angular
+
 _Tools_: Git, Docker, VS Code, Shell, Linux, MacOS, Windows
