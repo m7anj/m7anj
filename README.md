@@ -1,4 +1,4 @@
-# Manjeev Takhar 
+# ☞ Manjeev Takhar
 ## 🎓 Computer Science Student @ UoB
 I'm a passionate computer science student at the University of Birmingham, diving deep into the world of technology with a keen interest in full-stack development, AI & ML, Security & Networking, and low-level concepts.
 ## 💻 Tech Stack
