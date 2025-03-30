@@ -1,5 +1,5 @@
 :root {
-  --dark-navy: #131313;
+  --dark-navy: #000000; /* Set to black */
   --light-navy: #112240;
   --slate: #8892b0;
   --light-slate: #a8b2d1;
@@ -9,10 +9,10 @@
 
 body {
   margin: 0;
-  padding: 50px 50px;
+  padding: 50px 5%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  background-color: var(--dark-navy);
+  background-color: rgb(14, 14, 14); /* Ensure background is black */
   color: var(--slate);
   animation: fadeIn 0.5s ease-in-out;
 }
@@ -27,3 +27,34 @@ body {
     transform: translateY(0);
   }
 }
+
+/* Make sure body content adapts to screen size */
+body {
+  margin: 0;
+  padding: 50px 5%;  /* ✅ Changed from fixed 50px to responsive percentage */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--dark-navy);
+  color: var(--slate);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Smooth fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ✅ Improve spacing for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 30px 8%;  /* Reduce padding on smaller screens */
+  }
+}
+

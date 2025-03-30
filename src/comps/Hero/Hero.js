@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaCodepen, FaInstagram, FaGlobe, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaNewspaper } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import './Hero.css';
 
@@ -10,12 +10,16 @@ const Hero = () => {
         <h1 className="hero-title">Manjeev Takhar</h1>
 
         <div className="hero-subtitles-container">
-            <span className="hero-subtitle">Computer Science Student</span>
-            <span className="hero-subtitle2"> | Aspiring Software Developer</span>
+            <span className="hero-subtitle">BSc Computer Science Student</span>
+            <span className="hero-subtitle2"> | University of Birmingham</span>
         </div>
         
         <p className="hero-description">
-        Computer Science student at University of Birmingham with hands-on experience in full-stack development. Skilled in Java, React, and C#, with practical experience in IT support. Created multiple practical applications including database systems and educational games. Passionate about technology and content creation.
+        I am 2nd Year Computer Science student at University of Birmingham with a passion for
+         technology and problem-solving. Exploring various development frameworks and security 
+         concepts, I enjoy building practical solutions that make an impact. Currently focused 
+         on expanding my skills in software development while discovering new areas of interest
+         in the tech landscape.
         </p>
         
         <div className="social-links">
@@ -34,6 +38,7 @@ const Hero = () => {
           <a href="https://leetcode.com/u/m7anj/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
             <SiLeetcode />
           </a>
+
         </div>
       </div>
     </section>
