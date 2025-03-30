@@ -6,10 +6,8 @@
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
-    /* Consolidated alignment properties */
     align-items: center;
     text-align: center;
-    /* Removed duplicate align-items and redundant align-self/align-content */
   }
   
   .hero-title {
@@ -24,7 +22,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; /* Added to ensure center alignment consistently */
+    justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
     width: 100%;
@@ -48,7 +46,7 @@
     font-size: clamp(14px, 2vw, 16px);
     line-height: 1.6;
     margin-bottom: 25px;
-    text-align: center; /* Ensured this matches the parent's alignment */
+    text-align: center;
   }
   
   .social-links {
@@ -57,18 +55,18 @@
     margin-top: 20px;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center; /* Added to ensure icons are centered */
+    justify-content: center;
   }
   
   .social-links a {
     color: #ff6868;
     font-size: clamp(18px, 2.5vw, 22px);
-    transition: all 0.2s ease-in-out; /* Re-added transition that was missing */
+    transition: all 0.2s ease-in-out;
   }
   
   .social-links a:hover {
     color: #64ffda;
-    transform: translateY(-3px); /* Re-added hover effect that was missing */
+    transform: translateY(-3px);
   }
   
   .hero-button {

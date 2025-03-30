@@ -12,7 +12,7 @@ body {
   padding: 50px 5%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  background-color: rgb(14, 14, 14); /* Ensure background is black */
+  background-color: rgb(14, 14, 14);
   color: var(--slate);
   animation: fadeIn 0.5s ease-in-out;
 }
@@ -28,10 +28,9 @@ body {
   }
 }
 
-/* Make sure body content adapts to screen size */
 body {
   margin: 0;
-  padding: 50px 5%;  /* ✅ Changed from fixed 50px to responsive percentage */
+  padding: 50px 5%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   background-color: var(--dark-navy);
@@ -39,7 +38,6 @@ body {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Smooth fade-in effect */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -51,10 +49,9 @@ body {
   }
 }
 
-/* ✅ Improve spacing for smaller screens */
 @media (max-width: 768px) {
   body {
-    padding: 30px 8%;  /* Reduce padding on smaller screens */
+    padding: 30px 8%;
   }
 }
 
