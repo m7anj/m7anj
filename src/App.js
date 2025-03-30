@@ -3,7 +3,7 @@ import './App.css';
 
 import Hero from './comps/Hero/Hero';
 
-import About from './comps/About/About';
+import About from './comps/Skills/Skills';
 
 function App() {
   return (

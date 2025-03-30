@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
         
         <p className="hero-description">
-          I am a Computer Science student at <b>University of Birmingham</b> with a passion for software development. I love creating innovative solutions and exploring new technologies. My goal is to become a proficient software developer and contribute to exciting projects.
+        Computer Science student at University of Birmingham with hands-on experience in full-stack development. Skilled in Java, React, and C#, with practical experience in IT support. Created multiple practical applications including database systems and educational games. Passionate about technology and content creation.
         </p>
         
         <div className="social-links">
