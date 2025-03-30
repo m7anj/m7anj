@@ -1,0 +1,124 @@
+.about {
+    padding: 100px 25px;
+    display: flex;
+    flex-direction: column;
+    color: #ababab;
+  }
+  
+  .about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ccd6f6;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .section-title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background-color: #ff5858;
+  }
+  
+  .about-text {
+    margin-bottom: 50px;
+  }
+  
+  .about-text p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  
+  .about-text p strong {
+    color: #ccd6f6;
+  }
+  
+  .technical-background {
+    margin-top: 30px;
+  }
+  
+  .technical-background h3 {
+    font-size: 24px;
+    color: #ccd6f6;
+    margin-bottom: 25px;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .skill-category h4 {
+    font-size: 18px;
+    color: #ff5858;
+    margin-bottom: 15px;
+  }
+  
+  .skill-category ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skill-category li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .skill-category li:before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+  }
+  
+  .skill-category li:hover {
+    color: #ccd6f6;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Button styles consistent with hero section */
+  .about-button {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: transparent;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-family: monospace;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .about-button:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      padding: 70px 20px;
+    }
+    
+    .section-title {
+      font-size: 28px;
+    }
+    
+    .skills-container {
+      grid-template-columns: 1fr;
+    }
+  }

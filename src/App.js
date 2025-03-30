@@ -1,14 +1,21 @@
+import React from 'react';
 import './App.css';
 
-function Home() {
-  return (
-    <div className="Home-container">
+import Hero from './comps/Hero/Hero';
 
-      <h1>Manjeev Takhar</h1>
-      <p>Portfolio Website - Computer Science Student</p>
+import About from './comps/About/About';
+
+function App() {
+  return (
+    <div className="App">
+      
+      <main className="main-content">
+        <Hero />
+        <About />
+      </main>
 
     </div>
   );
 }
 
-export default Home;
+export default App;
