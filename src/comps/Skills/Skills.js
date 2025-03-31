@@ -23,7 +23,7 @@ const About = () => {
             </div>
             
             <div className="skill-category">
-              <h4>Tools & Technologies</h4>
+              <h4>Frameworks</h4>
               <ul>
                 <li>React.js</li>
                 <li>Node.js</li>

@@ -6,6 +6,15 @@ import './Hero.css';
 const Hero = () => {
   return (
     <section className="hero" id="home">
+
+      <div className="hero-image-container">
+        <img 
+          src="https://media.licdn.com/dms/image/v2/D4E03AQEW4Q8piF76DA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730491988802?e=1749081600&v=beta&t=TRALMv9mfK6fUUUL4FHAP5V71xYfAsVVW0oTd0ZWac0" 
+          alt="Manjeev Takhar" 
+          className="hero-image"
+        />
+      </div>
+
       <div className="hero-content">
         <h1 className="hero-title">Manjeev Takhar</h1>
 
