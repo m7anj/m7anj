@@ -30,6 +30,9 @@ const Experience = () => {
       ],
       techStack: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io"]
     }
+
+    // !! ADD MORE JOBS HERE !!
+
   ];
 
   const [expandedIds, setExpandedIds] = useState([]);
