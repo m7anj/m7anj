@@ -5,6 +5,8 @@ import Hero from './comps/Hero/Hero';
 
 import About from './comps/Skills/Skills';
 
+import Experience from './comps/Experience/Experience';
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,12 @@ function App() {
         <Hero />
         <About />
       </main>
+
+      <section className="experience-section">
+        <div className="experience-content">
+          <Experience />
+        </div>
+      </section>
 
     </div>
   );

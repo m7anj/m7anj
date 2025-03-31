@@ -46,7 +46,6 @@
 }
 
 .technical-background h3 {
-  font-size: clamp(20px, 3vw, 24px);
   color: #ababab;
   margin-bottom: 20px;
   text-align: center;

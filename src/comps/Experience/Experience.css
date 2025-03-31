@@ -1,0 +1,229 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    color: #ababab;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 4%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .experience h3 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Timeline Container */
+  .timeline-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 40px;
+  }
+  
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(to bottom, #ff5858 0%, rgba(255, 88, 88, 0.3) 100%);
+    left: 0;
+    top: 0;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  
+
+
+
+  .timeline-marker {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ff5858;
+    left: -48px;
+    top: 0;
+    border: 3px solid rgba(20, 20, 20, 0.9);
+    box-shadow: 0 0 8px rgba(255, 88, 88, 0.5);
+    z-index: 1;
+  }
+  
+  .timeline-content {
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.01);
+  }
+  
+  .timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Time period label */
+  .timeline-period {
+    position: absolute;
+    top: -10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff5858;
+    color: #111111;
+    font-size: clamp(11px, 1.3vw, 13px);
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Job Title */
+  .job-title {
+    font-size: clamp(18px, 2.5vw, 22px);
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+  }
+  
+  /* Company Info Line */
+  .company-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #e7e7e7;
+    font-size: clamp(14px, 1.8vw, 16px);
+  }
+  
+  .company-name {
+    color: #e7e7e7;
+    font-weight: 500;
+  }
+  
+  .location-dot {
+    margin: 0 8px;
+    opacity: 0.6;
+  }
+  
+  /* Job Description */
+  .job-description {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+  }
+  
+  .job-description li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 10px;
+    font-size: clamp(14px, 1.8vw, 16px);
+    line-height: 1.6;
+  }
+  
+  .job-description li:before {
+    content: '⤷';
+    position: absolute;
+    left: 0;
+    color: (rgba(255,255,255, 0.001));
+    transform: translateY(1px);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .timeline-container {
+      padding-left: 35px;
+    }
+    
+    .timeline-marker {
+      width: 14px;
+      height: 14px;
+      left: -42px;
+    }
+    
+    .timeline-content {
+      padding: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  /* expanding feature */
+
+  .timeline-content {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .timeline-content.expanded {
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+  
+  .job-preview {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .expanded-content {
+    margin-top: 15px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .expand-indicator {
+    text-align: center;
+    font-size: 12px;
+    color: #454545;
+    margin-top: 10px;
+    opacity: 0.7;
+  }
+  
+  .tech-used {
+    margin-top: 20px;
+  }
+  
+  .tech-used h5 {
+    font-size: 14px;
+    color: #aeaeae;
+    margin-bottom: 8px;
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  
+  .tech-tag {
+    padding: 4px 8px;
+    background-color: #dbdbdb23;
+    color: hsl(0, 100%, 66%);
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
