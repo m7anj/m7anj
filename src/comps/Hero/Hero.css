@@ -88,8 +88,8 @@
   }
   
   .social-links a:hover {
-    color: #64ffda;
-    transform: translateY(-3px);
+    color: #db3845;
+    transform: translateY(-1px);
   }
   
   .hero-button {
