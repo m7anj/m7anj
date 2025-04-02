@@ -68,6 +68,11 @@ const Projects = () => {
     <section id="projects" className="section">
       <div className="container">
         <h2 className="section-title">Projects</h2>
+
+        <div ClassName="section-subtitle">
+        <h6>fetched from github.com/m7anj/repos, subject to vary.</h6>
+        </div>
+
         <div className="projects-grid">
           {projects.map(project => (
             <div key={project.id} className="project-card">
