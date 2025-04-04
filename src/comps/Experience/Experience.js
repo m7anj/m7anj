@@ -16,20 +16,20 @@ const Experience = () => {
         "Enhanced communication skills while working effectively in a team environment"
       ],
       techStack: ["Windows Server", "Networking", "Data Recovery", "Security Tools"]
-    },
-    {
-      title: "Web Developer",
-      company: "Freelance",
-      location: "Remote",
-      period: "December 2023 - Present",
-      preview: "Developed & Maintaining ticket dashboard & marketplace with real-time transaction processing.",
-      description: [
-        "Designed and developed custom web applications tailored to client needs, including a full-stack ticket management dashboard using React, Node.js, and MongoDB",
-        "Implemented secure payment processing systems integrated with Stripe to ensure seamless and reliable transactions",
-        "Collaborated with clients to create analytics tools for tracking sales performance and identifying high-demand events"
-      ],
-      techStack: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io"]
     }
+    // {
+    //   title: "Web Developer",
+    //   company: "Freelance",
+    //   location: "Remote",
+    //   period: "December 2023 - Present",
+    //   preview: "Developed & Maintaining ticket dashboard & marketplace with real-time transaction processing.",
+    //   description: [
+    //     "Designed and developed custom web applications tailored to client needs, including a full-stack ticket management dashboard using React, Node.js, and MongoDB",
+    //     "Implemented secure payment processing systems integrated with Stripe to ensure seamless and reliable transactions",
+    //     "Collaborated with clients to create analytics tools for tracking sales performance and identifying high-demand events"
+    //   ],
+    //   techStack: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io"]
+    // }
 
     // !! ADD MORE JOBS HERE !!
 
