@@ -3,6 +3,10 @@
   --slate: #8892b0;
 }
 
+html, body {
+  overscroll-behavior: none; /* Prevents bounce scrolling in modern browsers */
+}
+
 body {
   margin: 0;
   padding: 50px 5%;

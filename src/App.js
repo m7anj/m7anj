@@ -9,6 +9,8 @@ import Experience from './comps/Experience/Experience';
 
 import Projects from './comps/Projects/Projects';
 
+import Footer from './comps/Footer/Footer';
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +32,14 @@ function App() {
         </div>
       </section>
 
-    </div>
+      <section className="footer-section">
+        <div className="projects-content">
+          <Footer />
+        </div>
+      </section>
+
+    </ div>
+
   );
 }
 

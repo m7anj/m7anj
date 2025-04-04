@@ -22,6 +22,7 @@ export const fetchGitHubRepos = async (username) => {
       console.error("Error fetching GitHub repositories:", error);
       return [];
     }
+
   };
 
 export const fetchFeaturedRepos = async (username, featuredRepoNames) => {
