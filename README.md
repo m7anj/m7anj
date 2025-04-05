@@ -2,7 +2,7 @@
 
 ## Computer Science Student @ University of Birmingham
 
-I'm a 2nd Year Computer Science student with a passion for technology and problem-solving. Exploring various development frameworks and security concepts, I enjoy building practical solutions that make an impact... on ANYONE.
+I'm a 2nd Year Computer Science student with a passion for creating apps & helping people!
 
 ## 🛠️ Languages
 
