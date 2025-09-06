@@ -2,38 +2,50 @@ import React, { useState } from 'react';
 import './Experience.css';
 
 const Experience = () => {
+  
+
   const experiences = [
     {
-      title: "IT Support Work Experience",
-      company: "Superfast IT",
-      location: "Stourbridge, UK",
-      period: "June 2022",
-      preview: "Gained practical hands-on work experience in IT support and cybersecurity",
+      title: "Software Development Intern",
+      company: "BuySure Trust & Insurance Services GB Ltd",
+      location: "Cheshire, UK",
+      period: "June 2025 - Sept 2025",
+      preview: "Developed a Financial Rates Insights dashboard and streamlined internal processes for insurance brokers.",
       description: [
-        "Gained practical hands-on experience in IT support, technology support and cybersecurity",
-        "Utilized computational skills in IT management, system monitoring, and data recovery",
-        "Contributed to customer support tasks, leveraging technical skills for cybersecurity",
-        "Enhanced communication skills while working effectively in a team environment"
+        "Developed a Financial Rates & Insights dashboard using React, integrating Bank of England API, mortgage rate feeds, and currency exchange widgets.",
+        "Conducted a UX audit, improving mobile responsiveness and achieving WCAG AA compliance across the company website for international clients.",
+        "Prototyped a Quote Automation Assistant, reducing manual data entry by 60% and streamlining workflows for 15+ insurance brokers."
       ],
-      techStack: ["Windows Server", "Networking", "Data Recovery", "Security Tools"]
+      techStack: ["React", "JavaScript", "API Integration", "UX/UI", "WCAG AA", "Node.js"]
+    },
+    {
+      title: "Freelance Web Developer",
+      company: "Self-employed",
+      location: "Remote",
+      period: "May 2024 - Present",
+      preview: "Built custom websites and migrated platforms to secure hosting environments.",
+      description: [
+        "Built custom websites using React and CSS, enhancing accessibility and user experience across multiple devices.",
+        "Migrated platforms to new hosting environments, ensuring improved security through SSL certificates and secure FTP/SSH protocols."
+      ],
+      techStack: ["React", "CSS", "JavaScript", "SSL", "FTP/SSH", "Web Development"]
+    },
+    {
+      title: "Content Creator & Technology Reviewer",
+      company: "AlludeTech YouTube Channel",
+      location: "Remote",
+      period: "2022 - Present",
+      preview: "Grew a technology review channel to 520,000+ total viewers and managed sponsorships.",
+      description: [
+        "Created engaging tech content and secured paid sponsorships with tech companies for product reviews.",
+        "Achieved 17.8% click-through rate (3x the industry average), growing the channel to 520,000+ viewers and 2,300+ subscribers."
+      ],
+      techStack: ["YouTube", "Content Creation", "Tech Reviews", "Audience Engagement"]
     }
-    // {
-    //   title: "Web Developer",
-    //   company: "Freelance",
-    //   location: "Remote",
-    //   period: "December 2023 - Present",
-    //   preview: "Developed & Maintaining ticket dashboard & marketplace with real-time transaction processing.",
-    //   description: [
-    //     "Designed and developed custom web applications tailored to client needs, including a full-stack ticket management dashboard using React, Node.js, and MongoDB",
-    //     "Implemented secure payment processing systems integrated with Stripe to ensure seamless and reliable transactions",
-    //     "Collaborated with clients to create analytics tools for tracking sales performance and identifying high-demand events"
-    //   ],
-    //   techStack: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io"]
-    // }
-
-    // !! ADD MORE JOBS HERE !!
-
   ];
+
+
+
 
   const [expandedIds, setExpandedIds] = useState([]);
 

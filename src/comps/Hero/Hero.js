@@ -9,8 +9,8 @@ const Hero = () => {
 
       <div className="hero-image-container">
         <img 
-          src="https://media.licdn.com/dms/image/v2/D4E03AQEW4Q8piF76DA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730491988802?e=1749081600&v=beta&t=TRALMv9mfK6fUUUL4FHAP5V71xYfAsVVW0oTd0ZWac0" 
-          alt="Manjeev Takhar" 
+          src="https://media.licdn.com/dms/image/v2/D4E03AQGefxNCq2ZobA/profile-displayphoto-shrink_200_200/B4EZYQMUhXHgAY-/0/1744028387933?e=2147483647&v=beta&t=e1122JWFdXByz1BgNSDWPlhd7OgBgOL1nGcV5-mcfWg"
+          alt="Manjeev Takhar"
           className="hero-image"
         />
       </div>
