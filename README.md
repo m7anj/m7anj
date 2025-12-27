@@ -1,6 +1,7 @@
-# ᴍᴀɴᴊ
+# manj
 
-- cs undergrad @ University of Birmingham.
+- cs undergrad @ University of Birmingham
+- tech inthusiast
 - i love problem-solving, everything i do is either to help myself or others around the world
 
 ## my stack
