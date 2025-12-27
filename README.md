@@ -1,4 +1,4 @@
-# Manj 🎶
+# ᴍᴀɴᴊ
 
 - cs undergrad @ University of Birmingham.
 - i love problem-solving, everything i do is either to help myself or others around the world
