@@ -1,0 +1,68 @@
+.contact {
+  padding: var(--space-3xl) 0;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-text {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-xl);
+}
+
+.contact-email {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-xl);
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--accent);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-bottom: var(--space-xl);
+}
+
+.contact-email:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  background: var(--bg-secondary);
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.contact-links a {
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  padding: var(--space-sm);
+}
+
+.contact-links a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .contact-text {
+    font-size: 1rem;
+  }
+
+  .contact-email {
+    font-size: 1rem;
+    padding: var(--space-sm) var(--space-lg);
+  }
+}

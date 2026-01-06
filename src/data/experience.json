@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "role": "Software Development Intern",
+    "company": "BuySure Trust & Insurance Services GB Ltd",
+    "location": "Cheshire, UK",
+    "period": "June 2025 - Sept 2025",
+    "current": false,
+    "description": "Developed a Financial Rates Insights dashboard and streamlined internal processes for insurance brokers.",
+    "responsibilities": [
+      "Developed a Financial Rates & Insights dashboard using React, integrating Bank of England API, mortgage rate feeds, and currency exchange widgets",
+      "Conducted a UX audit, improving mobile responsiveness and achieving WCAG AA compliance across the company website for international clients",
+      "Prototyped a Quote Automation Assistant, reducing manual data entry by 60% and streamlining workflows for 15+ insurance brokers"
+    ],
+    "achievements": [
+      "Reduced manual data entry by 60%",
+      "Achieved WCAG AA compliance",
+      "Improved workflows for 15+ brokers"
+    ],
+    "tech": ["React", "JavaScript", "API Integration", "UX/UI", "WCAG AA", "Node.js"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "role": "Freelance Web Developer",
+    "company": "Self-employed",
+    "location": "Remote",
+    "period": "May 2024 - Present",
+    "current": true,
+    "description": "Built custom websites and migrated platforms to secure hosting environments.",
+    "responsibilities": [
+      "Built custom websites using React and CSS, enhancing accessibility and user experience across multiple devices",
+      "Migrated platforms to new hosting environments, ensuring improved security through SSL certificates and secure FTP/SSH protocols"
+    ],
+    "tech": ["React", "CSS", "JavaScript", "SSL", "FTP/SSH", "Web Development"],
+    "featured": true,
+    "projects": [
+      {
+        "name": "Local Business Website",
+        "link": "https://example.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Content Creator & Technology Reviewer",
+    "company": "AlludeTech YouTube Channel",
+    "location": "Remote",
+    "period": "2022 - Present",
+    "current": true,
+    "description": "Grew a technology review channel to 520,000+ total viewers and managed sponsorships.",
+    "responsibilities": [
+      "Created engaging tech content and secured paid sponsorships with tech companies for product reviews",
+      "Achieved 17.8% click-through rate (3x the industry average), growing the channel to 520,000+ viewers and 2,300+ subscribers"
+    ],
+    "achievements": [
+      "520,000+ total viewers",
+      "2,300+ subscribers",
+      "17.8% CTR (3x industry average)"
+    ],
+    "tech": ["YouTube", "Content Creation", "Tech Reviews", "Audience Engagement"],
+    "links": {
+      "youtube": "https://youtube.com/@alludetech"
+    },
+    "featured": false
+  }
+]

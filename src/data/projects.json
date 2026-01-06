@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "Full-stack e-commerce platform with real-time inventory management and secure payment processing",
+    "longDescription": "Built a comprehensive e-commerce solution featuring product catalog, shopping cart, order management, and integrated payment gateway. Implemented real-time inventory tracking and admin dashboard for business analytics.",
+    "tech": ["React", "Node.js", "Express", "PostgreSQL", "Stripe API"],
+    "image": "/projects/ecommerce.jpg",
+    "links": {
+      "demo": "https://demo.example.com",
+      "repo": "https://github.com/m7anj/ecommerce",
+      "article": "https://blog.example.com/building-ecommerce"
+    },
+    "status": "completed",
+    "featured": true,
+    "date": "2024-12",
+    "highlights": [
+      "Reduced checkout time by 40% through UX optimization",
+      "Processed 10,000+ transactions with 99.9% uptime",
+      "Implemented secure authentication with JWT"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "AI Code Assistant",
+    "description": "VS Code extension that provides intelligent code suggestions using machine learning",
+    "tech": ["TypeScript", "Python", "TensorFlow", "VS Code API"],
+    "links": {
+      "repo": "https://github.com/m7anj/ai-assistant",
+      "marketplace": "https://marketplace.visualstudio.com/items?itemName=example"
+    },
+    "status": "in-progress",
+    "featured": true,
+    "date": "2024-11",
+    "collaborators": [
+      {
+        "name": "John Doe",
+        "github": "johndoe",
+        "avatar": "https://github.com/johndoe.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Real-Time Chat Application",
+    "description": "Scalable chat application with WebSocket support, file sharing, and group messaging",
+    "tech": ["React", "Socket.io", "Node.js", "MongoDB", "Redis"],
+    "image": "/projects/chat.jpg",
+    "links": {
+      "demo": "https://chat.example.com",
+      "repo": "https://github.com/m7anj/realtime-chat"
+    },
+    "status": "completed",
+    "date": "2024-09",
+    "highlights": [
+      "Supports 1000+ concurrent users",
+      "End-to-end encryption for private messages",
+      "Real-time typing indicators and read receipts"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Analytics Dashboard",
+    "description": "Interactive dashboard for tracking portfolio performance and market trends",
+    "tech": ["React", "D3.js", "Chart.js", "Firebase"],
+    "links": {
+      "demo": "https://portfolio-analytics.example.com"
+    },
+    "status": "completed",
+    "featured": false,
+    "date": "2024-07"
+  },
+  {
+    "id": 5,
+    "title": "Task Management CLI",
+    "description": "Command-line tool for managing tasks with Git-style workflow",
+    "tech": ["Python", "SQLite", "Click"],
+    "links": {
+      "repo": "https://github.com/m7anj/task-cli"
+    },
+    "status": "completed",
+    "date": "2024-05"
+  },
+  {
+    "id": 6,
+    "title": "Neural Network Visualizer",
+    "description": "Interactive tool for visualizing neural network architectures and training processes",
+    "tech": ["JavaScript", "TensorFlow.js", "Three.js"],
+    "status": "private",
+    "date": "2024-03"
+  }
+]
