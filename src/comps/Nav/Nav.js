@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { FiSun, FiMoon } from 'react-icons/fi';
 import './Nav.css';
 
-const Nav = () => {
+const Nav = ({ theme, toggleTheme }) => {
   const [activeSection, setActiveSection] = useState('home');
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -33,19 +34,23 @@ const Nav = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      const nav = document.querySelector('.nav');
+      const navHeight = nav ? nav.offsetHeight : 0;
+      const offset = sectionId === 'experience' ? navHeight + 20 : navHeight;
+      const elementPosition = element.offsetTop - offset;
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
   return (
     <nav className={`nav ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <a href="#home" className="nav-logo" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('home');
-        }}>
-          MT
-        </a>
+        <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+          {theme === 'dark' ? <FiSun size={20} /> : <FiMoon size={20} />}
+        </button>
 
         <ul className="nav-links">
           <li>

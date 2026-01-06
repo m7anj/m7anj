@@ -1,7 +1,9 @@
 .App {
   min-height: 100vh;
   scroll-behavior: smooth;
+  position: relative;
 }
+
 
 .container {
   max-width: var(--max-width);

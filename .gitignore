@@ -23,3 +23,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .env
+
+.png
+.jpg
+.jpeg
+
+!data/icons/*
+!data/experience.json
+!data/projects.json
+

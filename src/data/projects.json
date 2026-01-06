@@ -1,92 +1,126 @@
 [
   {
     "id": 1,
-    "title": "E-Commerce Platform",
-    "description": "Full-stack e-commerce platform with real-time inventory management and secure payment processing",
-    "longDescription": "Built a comprehensive e-commerce solution featuring product catalog, shopping cart, order management, and integrated payment gateway. Implemented real-time inventory tracking and admin dashboard for business analytics.",
-    "tech": ["React", "Node.js", "Express", "PostgreSQL", "Stripe API"],
-    "image": "/projects/ecommerce.jpg",
-    "links": {
-      "demo": "https://demo.example.com",
-      "repo": "https://github.com/m7anj/ecommerce",
-      "article": "https://blog.example.com/building-ecommerce"
-    },
+    "title": "Speedmates",
+    "description": "Real-time chat app for uni students to connect based on shared interests—built it because group finding was a nightmare.",
+    "detailedDescription": "Finding people at uni who were actually on your wavelength was surprisingly hard, so we built Speedmates to fix that. It's a real-time chat platform where students match based on interests and courses. Used Spring Boot for the backend because I wanted something solid, and React for the frontend. The WebSocket implementation was probably the most interesting part—getting real-time messaging to actually feel instant took some work.",
+    "tech": ["Spring Boot", "React", "WebSocket", "PostgreSQL", "Java"],
+    "date": "2024",
     "status": "completed",
-    "featured": true,
-    "date": "2024-12",
+    "links": {
+      "repo": "https://github.com/m7anj/speedmates"
+    },
     "highlights": [
-      "Reduced checkout time by 40% through UX optimization",
-      "Processed 10,000+ transactions with 99.9% uptime",
-      "Implemented secure authentication with JWT"
+      "Built full real-time messaging system with WebSockets",
+      "Interest-based matching algorithm for students",
+      "Actually got used by people at uni"
+    ],
+    "features": [
+      "Real-time messaging with instant delivery",
+      "Interest-based user matching",
+      "Course and module filtering",
+      "User profiles with shared interests",
+      "Group chat functionality"
     ]
   },
   {
-    "id": 2,
-    "title": "AI Code Assistant",
-    "description": "VS Code extension that provides intelligent code suggestions using machine learning",
-    "tech": ["TypeScript", "Python", "TensorFlow", "VS Code API"],
-    "links": {
-      "repo": "https://github.com/m7anj/ai-assistant",
-      "marketplace": "https://marketplace.visualstudio.com/items?itemName=example"
-    },
-    "status": "in-progress",
-    "featured": true,
-    "date": "2024-11",
-    "collaborators": [
-      {
-        "name": "John Doe",
-        "github": "johndoe",
-        "avatar": "https://github.com/johndoe.png"
-      }
-    ]
+  "id": 2,
+  "title": "NLP News Classifier",
+  "icon": "📰",
+  "description": "An intelligent news classification system that uses real NLP techniques and neural networks to automatically understand and categorize news articles.",
+  "detailedDescription": "This project was built as a deep dive into practical natural language processing and machine learning. Instead of relying on simple keyword matching, the classifier cleans and processes raw news text, lemmatizes it using Stanford CoreNLP, transforms words into meaningful numerical representations with GloVe embeddings, and feeds them into a neural network built with DeepLearning4J. The goal was to understand how modern NLP pipelines work end to end—from raw text to structured predictions—while experimenting with vector semantics, optimization strategies, and preprocessing techniques. It’s not just a demo; it’s a hands-on exploration of how machines learn to read the news.",
+  "tech": [
+    "Java",
+    "Natural Language Processing",
+    "Machine Learning",
+    "Stanford CoreNLP",
+    "DeepLearning4J",
+    "GloVe"
+  ],
+  "date": "2024",
+  "status": "completed",
+  "links": {
+    "repo": "https://github.com/m7anj/AdvancedNewsClassifier"
   },
+  "highlights": [
+    "Neural-network-based news classification",
+    "Word embeddings with pre-trained GloVe vectors",
+    "Full NLP preprocessing pipeline with lemmatization and stop-word removal"
+  ],
+  "features": [
+    "Automatic categorization of news articles",
+    "Text cleaning and normalization",
+    "Lemmatization using Stanford CoreNLP",
+    "Semantic word representation via GloVe embeddings",
+    "Neural network training optimized with Adam optimizer",
+    "Support for multiple news categories"
+  ]
+},
   {
     "id": 3,
-    "title": "Real-Time Chat Application",
-    "description": "Scalable chat application with WebSocket support, file sharing, and group messaging",
-    "tech": ["React", "Socket.io", "Node.js", "MongoDB", "Redis"],
-    "image": "/projects/chat.jpg",
-    "links": {
-      "demo": "https://chat.example.com",
-      "repo": "https://github.com/m7anj/realtime-chat"
-    },
+    "title": "Lyra - Voice-to-Music Platform",
+    "icon": "🎵",
+    "description": "During BirmingHack 2025, we built a voice-to-music platform that turns voice descriptions into actual music using Deepgram's API.",
+    "detailedDescription": "Hackathon project that we wanted to use, since Neuphonic was there (they provide ultra low-latency TTS API's), and we wanted to win a bounty they had set out. The idea was simple... describe what you want to hear, and it generates music for you. Used Deepgram's API specifically for voice recognition because it's fast, then built the music generation on top. Had 48 hours to build it, so the code isn't perfect, and we used tools like Claude Code and Cursor to help with our short-lived planning and development, but it worked well enough to win. Judges seemed impressed by how quickly it could go from 'Stop, wait a minute' to a preview of 'Uptown Funk from Bruno Mars' they were singing.",
+    "tech": ["Deepgram API", "Python", "React", "Node.js"],
+    "date": "Jan 2025",
     "status": "completed",
-    "date": "2024-09",
+    "links": {
+      "demo": "https://youtu.be/pVjNPJCaHSw"
+    },
     "highlights": [
-      "Supports 1000+ concurrent users",
-      "End-to-end encryption for private messages",
-      "Real-time typing indicators and read receipts"
+      "Won BirmingHack 2025",
+      "Real-time voice processing",
+      "Built in 48 hours"
+    ],
+    "features": [
+      "Voice-to-text with Deepgram",
+      "Natural language music generation",
+      "Real-time audio playback",
+      "Genre and mood customization"
     ]
   },
   {
     "id": 4,
-    "title": "Portfolio Analytics Dashboard",
-    "description": "Interactive dashboard for tracking portfolio performance and market trends",
-    "tech": ["React", "D3.js", "Chart.js", "Firebase"],
+    "title": "ResumeTail",
+    "description": "Chrome extension that suggests resume improvements based on job postings—currently building this.",
+    "detailedDescription": "Got tired of manually tweaking my resume for every application, so I'm building a Chrome extension that does it for me. You're looking at a job posting, click the extension, and it analyzes both the posting and your resume to suggest specific improvements. Still working on it, but the AI integration is coming together nicely. Uses Claude's API to understand context properly rather than just keyword stuffing.",
+    "tech": ["JavaScript", "Chrome Extension API", "Claude API", "React"],
+    "date": "2025",
+    "status": "in-progress",
     "links": {
-      "demo": "https://portfolio-analytics.example.com"
+      "repo": "https://github.com/m7anj/resumetail"
     },
-    "status": "completed",
-    "featured": false,
-    "date": "2024-07"
+    "highlights": [
+      "AI-powered resume analysis",
+      "Job description parsing",
+      "Context-aware suggestions"
+    ],
+    "features": [
+      "One-click job posting analysis",
+      "Resume optimization suggestions",
+      "Keyword gap identification",
+      "Before/after comparison",
+      "Export optimized versions"
+    ]
   },
   {
-    "id": 5,
-    "title": "Task Management CLI",
-    "description": "Command-line tool for managing tasks with Git-style workflow",
-    "tech": ["Python", "SQLite", "Click"],
-    "links": {
-      "repo": "https://github.com/m7anj/task-cli"
-    },
+    "id": 7,
+    "title": "Personal Portfolio Website",
+    "icon": "🌐",
+    "description": "The site you're looking at—built from scratch using my own initiative and AI-assisted development because I wanted full control over everything.",
+    "detailedDescription": "Could've used a template, but that isn't unique enough. So, using AI tools and UI/UX design strategies, I built a portfolio site in React to showcase projects and experience. Focused on clean design, fast load times, and actually being responsive on mobile. It's also a chance to experiment with new tech and design ideas without clients being up my *ss!",
+    "tech": ["React", "JavaScript", "CSS", "Netlify"],
+    "date": "2024",
     "status": "completed",
-    "date": "2024-05"
-  },
-  {
-    "id": 6,
-    "title": "Neural Network Visualizer",
-    "description": "Interactive tool for visualizing neural network architectures and training processes",
-    "tech": ["JavaScript", "TensorFlow.js", "Three.js"],
-    "status": "private",
-    "date": "2024-03"
+    "links": {
+      "demo": "https://manjeev.fun"
+    },
+    "features": [
+      "Responsive design that actually works",
+      "Project showcases with live demos",
+      "Fast load times",
+      "Clean, minimal interface"
+    ]
   }
 ]

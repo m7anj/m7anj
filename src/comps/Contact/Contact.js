@@ -19,11 +19,6 @@ const Contact = () => {
             <FaEnvelope />
             manjeevsinghtakhar@hotmail.com
           </a>
-          <a href="mailto:ManjeevT@hotmail.com" className="contact-email">
-            <FaEnvelope />
-            manjeevt@hotmail.com
-          </a>
-
           <div className="contact-links">
             <a href="https://github.com/m7anj" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub size={24} />

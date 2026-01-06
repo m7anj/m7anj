@@ -1,14 +1,16 @@
 :root {
-  /* Colors */
+  /* Dark theme colors */
   --bg-primary: #0a0a0a;
   --bg-secondary: #111111;
   --text-primary: #e4e4e7;
   --text-secondary: #a1a1aa;
   --text-tertiary: #71717a;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
+  --accent: #a855f7;
+  --accent-hover: #9333ea;
   --border: #27272a;
   --card-bg: #18181b;
+  --nav-bg: rgba(10, 10, 10, 0.98);
+  --nav-bg-scrolled: rgba(10, 10, 10, 0.98);
 
   /* Spacing */
   --space-xs: 0.25rem;
@@ -37,6 +39,7 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body {
@@ -46,9 +49,10 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--text-primary);
-  background-color: var(--bg-primary);
+  background: var(--bg-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
 }
 
 code {
@@ -67,6 +71,21 @@ a {
 
 a:hover {
   color: var(--accent-hover);
+}
+
+/* Light theme colors (Catppuccin Latte inspired) */
+[data-theme="light"] {
+  --bg-primary: #eff1f5;
+  --bg-secondary: #e6e9ef;
+  --text-primary: #4c4f69;
+  --text-secondary: #5c5f77;
+  --text-tertiary: #6c6f85;
+  --accent: #8839ef;
+  --accent-hover: #7c3aed;
+  --border: #dce0e8;
+  --card-bg: #ffffff;
+  --nav-bg: rgba(239, 241, 245, 0.98);
+  --nav-bg-scrolled: rgba(230, 233, 239, 0.98);
 }
 
 h1, h2, h3, h4, h5, h6 {

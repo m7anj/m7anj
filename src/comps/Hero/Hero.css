@@ -1,8 +1,21 @@
 .hero {
-  min-height: 100vh;
+  min-height: 110vh;
   display: flex;
   align-items: center;
   padding: var(--space-3xl) 0;
+}
+
+.hero-image-container {
+  margin-bottom: var(--space-xl);
+}
+
+.hero-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--border);
+  transition: all 0.3s ease;
 }
 
 .hero h1 {
@@ -21,6 +34,57 @@
   max-width: 600px;
   line-height: 1.7;
   margin-bottom: var(--space-xl);
+}
+
+.hero-tech {
+  margin-bottom: var(--space-xl);
+  max-width: 600px;
+}
+
+.hero-tech h3 {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: var(--space-sm);
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.tech-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.tech-item svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.tech-item span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .hero-links {

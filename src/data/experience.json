@@ -4,64 +4,106 @@
     "role": "Software Development Intern",
     "company": "BuySure Trust & Insurance Services GB Ltd",
     "location": "Cheshire, UK",
-    "period": "June 2025 - Sept 2025",
+    "period": "June 2024 - Sept 2024",
     "current": false,
-    "description": "Developed a Financial Rates Insights dashboard and streamlined internal processes for insurance brokers.",
+    "iconImage": "buysure.png",
+    "description": "Built tools that actually made brokers' lives easier, cutting their prep time by over 60%.",
+    "detailedDescription": "I spent the summer working with insurance brokers who were drowning in manual processes. They needed something that would save them time without adding complexity. So I built a dashboard that pulled together everything they needed—Bank of England rates, mortgage feeds, currency widgets—all in one place. The best part was seeing them actually use it and hearing that their quote preparation went from hours to minutes.",
     "responsibilities": [
-      "Developed a Financial Rates & Insights dashboard using React, integrating Bank of England API, mortgage rate feeds, and currency exchange widgets",
-      "Conducted a UX audit, improving mobile responsiveness and achieving WCAG AA compliance across the company website for international clients",
-      "Prototyped a Quote Automation Assistant, reducing manual data entry by 60% and streamlining workflows for 15+ insurance brokers"
+      "Created a Financial Rates dashboard in React that brought together scattered data sources into something brokers could actually use daily",
+      "Fixed the company website's mobile experience and made it properly accessible—turned out they had international clients who really needed this",
+      "Prototyped an automation tool that saved the team from copying data around manually; 15 brokers now use it regularly"
     ],
     "achievements": [
-      "Reduced manual data entry by 60%",
-      "Achieved WCAG AA compliance",
-      "Improved workflows for 15+ brokers"
+      "Cut manual data entry by 60%",
+      "Made the site WCAG AA compliant",
+      "Built something people actually wanted to use"
     ],
-    "tech": ["React", "JavaScript", "API Integration", "UX/UI", "WCAG AA", "Node.js"],
+    "tech": ["React", "JavaScript", "Node.js", "API Integration"],
+    "skills": ["UX/UI Design", "Web Accessibility", "REST APIs", "Responsive Design"],
     "featured": true
   },
   {
     "id": 2,
+    "role": "IT Support Technician",
+    "company": "Superfast IT",
+    "location": "Birmingham, UK",
+    "period": "Summer 2023",
+    "current": false,
+    "iconImage": "superfastit.jpeg",
+    "description": "Kept 50+ small businesses running smoothly through remote support and troubleshooting.",
+    "detailedDescription": "Small businesses don't have IT departments, so when something breaks, they're stuck. I worked remotely supporting over 50 clients—fixing everything from network issues to software problems. You learn to explain technical things clearly when you're helping someone who just needs their printer working before a deadline.",
+    "responsibilities": [
+      "Provided remote IT support to 50+ small business clients across various industries",
+      "Diagnosed and resolved hardware, software, and network issues quickly to minimize downtime",
+      "Communicated technical solutions in plain English to non-technical business owners"
+    ],
+    "tech": ["Remote Desktop", "Windows", "Network Troubleshooting"],
+    "skills": ["Technical Support", "Problem Solving", "Client Communication", "Time Management"],
+    "featured": false
+  },
+  {
+    "id": 3,
     "role": "Freelance Web Developer",
     "company": "Self-employed",
     "location": "Remote",
     "period": "May 2024 - Present",
     "current": true,
-    "description": "Built custom websites and migrated platforms to secure hosting environments.",
+    "icon": "🚀",
+    "description": "Building websites for clients who want something modern and accessible, not just functional.",
+    "detailedDescription": "I work with clients who know what they want but need someone to actually build it. Usually it's about creating something clean that works everywhere—phone, tablet, desktop. I've also helped a few migrate from dodgy hosting to something more secure, which honestly should've been done years ago.",
     "responsibilities": [
-      "Built custom websites using React and CSS, enhancing accessibility and user experience across multiple devices",
-      "Migrated platforms to new hosting environments, ensuring improved security through SSL certificates and secure FTP/SSH protocols"
+      "Build custom websites in React focused on performance and accessibility",
+      "Handle migrations to secure hosting with proper SSL certificates and SSH access",
+      "Work directly with clients to understand what they actually need, not just what they think they want"
     ],
-    "tech": ["React", "CSS", "JavaScript", "SSL", "FTP/SSH", "Web Development"],
-    "featured": true,
-    "projects": [
-      {
-        "name": "Local Business Website",
-        "link": "https://example.com"
-      }
-    ]
+    "tech": ["React", "CSS", "JavaScript", "SSL/TLS"],
+    "skills": ["Web Development", "Security", "Client Communication"],
+    "featured": true
   },
   {
-    "id": 3,
-    "role": "Content Creator & Technology Reviewer",
+    "id": 4,
+    "role": "Content Creator",
     "company": "AlludeTech YouTube Channel",
     "location": "Remote",
     "period": "2022 - Present",
     "current": true,
-    "description": "Grew a technology review channel to 520,000+ total viewers and managed sponsorships.",
+    "iconImage": "yt.png",
+    "description": "Grew a tech channel to over half a million views by making content people actually find useful.",
+    "detailedDescription": "Started AlludeTech because I enjoyed solving tech problems and figured others might find it helpful too. Turns out they did—520,000+ views later, I'm working with tech companies on sponsored content and trying to maintain a 17.8% click-through rate, which apparently is quite good. It's taught me as much about storytelling and audience engagement as it has about the tech itself.",
     "responsibilities": [
-      "Created engaging tech content and secured paid sponsorships with tech companies for product reviews",
-      "Achieved 17.8% click-through rate (3x the industry average), growing the channel to 520,000+ viewers and 2,300+ subscribers"
+      "Create tech reviews and tutorials that people watch all the way through (17.8% CTR, 3x the average)",
+      "Negotiate sponsorships with tech companies while keeping content genuine",
+      "Script, film, and edit everything myself—you learn quickly when there's no one else to blame"
     ],
     "achievements": [
-      "520,000+ total viewers",
+      "520,000+ total views",
       "2,300+ subscribers",
-      "17.8% CTR (3x industry average)"
+      "Secured paid partnerships with tech brands"
     ],
-    "tech": ["YouTube", "Content Creation", "Tech Reviews", "Audience Engagement"],
+    "skills": ["Content Creation", "Brand Partnerships", "Storytelling", "Analytics"],
     "links": {
       "youtube": "https://youtube.com/@alludetech"
     },
+    "featured": false
+  },
+  {
+    "id": 5,
+    "role": "Customer Advisor",
+    "company": "Boots",
+    "location": "Birmingham, UK",
+    "period": "2023 - Present",
+    "current": true,
+    "iconImage": "boots.jpg",
+    "description": "Customer Advisor retail work, primarily in the perfume section, upselling fragrances based on customer requirements... turns out customer service skills transfer everywhere.",
+    "detailedDescription": "Been working weekends at Boots in the perfume section whilst studying, recently being given the exclusive role of being a 'Fragrance Ambassador'. It's not tech at all, but you'd be surprised how much of software development is about understanding what people actually want versus what they say they want. That, and staying patient when things get busy.",
+    "responsibilities": [
+      "Help customers find products and make purchase decisions",
+      "Handle transactions and maintain stock levels",
+      "Deal with weekend rush crowds whilst staying helpful"
+    ],
+    "tech": [],
+    "skills": ["Customer Service", "Communication", "Time Management"],
     "featured": false
   }
 ]
