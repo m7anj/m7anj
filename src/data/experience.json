@@ -43,25 +43,6 @@
     "featured": false
   },
   {
-    "id": 3,
-    "role": "Freelance Web Developer",
-    "company": "Self-employed (Personal Network, Upwork)",
-    "location": "Remote",
-    "period": "May 2024 - Present",
-    "current": true,
-    "iconImage": "upwork.png",
-    "description": "Building websites for clients who want something modern and accessible, not just functional.",
-    "detailedDescription": "I work with clients who know what they want but need someone to actually build it. Usually it's about creating something clean that works everywhere—phone, tablet, desktop. I've also helped a few migrate from dodgy hosting to something more secure, which honestly should've been done years ago.",
-    "responsibilities": [
-      "Build custom websites in React focused on performance and accessibility",
-      "Handle migrations to secure hosting with proper SSL certificates and SSH access",
-      "Work directly with clients to understand what they actually need, not just what they think they want"
-    ],
-    "tech": ["React", "CSS", "JavaScript", "SSL/TLS"],
-    "skills": ["Web Development", "Security", "Client Communication"],
-    "featured": true
-  },
-  {
     "id": 4,
     "role": "Content Creator",
     "company": "AlludeTech YouTube Channel",

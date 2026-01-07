@@ -19,21 +19,10 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
-  padding: var(--space-md) var(--space-xl);
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--accent);
   font-size: 1.1rem;
   text-decoration: none;
   transition: all 0.2s ease;
   margin-bottom: var(--space-xl);
-}
-
-.contact-email:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
-  background: var(--bg-secondary);
 }
 
 .contact-links {
