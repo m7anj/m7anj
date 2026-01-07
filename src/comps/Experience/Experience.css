@@ -221,7 +221,7 @@
 }
 
 .modal-section h4 {
-  color: var(--accent);
+  color: var(--text-primary);
   font-size: 1rem;
   margin-bottom: var(--space-md);
   text-transform: uppercase;

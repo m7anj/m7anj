@@ -3,6 +3,7 @@ import { FaExternalLinkAlt, FaGithub, FaCalendar, FaLock, FaNetworkWired, FaDesk
 import {
   SiReact,
   SiJavascript,
+  SiAngular,
   SiNodedotjs,
   SiPython,
   SiCss3,
@@ -24,7 +25,19 @@ import {
   SiOpenjdk,
   SiFlask,
   SiScikitlearn,
-  SiNetlify
+  SiNetlify,
+  SiLiquibase,
+  SiJhipster,
+  SiClaude,
+  SiElevenlabs,
+  SiVercel,
+  SiStripe,
+  SiClerk,
+  SiNextdotjs,
+  SiExpo,
+  SiOpenai,
+  SiGmail,
+  SiPrisma,
 } from 'react-icons/si';
 import Modal from '../Modal/Modal';
 import projectsData from '../../data/projects.json';
@@ -66,10 +79,25 @@ const getTechIcon = (tech) => {
     'NLP': SiPython,
     'Deepgram API': FaPlug,
     'Chrome Extension API': FaPlug,
-    'Claude API': FaPlug,
+    'Claude API': SiClaude,
     'Bank of England API': FaPlug,
     'Form Automation': FaPlug,
     'Netlify': SiNetlify,
+    'Angular': SiAngular,
+    'Liquibase': SiLiquibase,
+    'Jhipster': SiJhipster,
+    'ElevenLabs': SiElevenlabs,
+    'Vercel': SiVercel,
+    'Stripe': SiStripe,
+    'Clerk': SiClerk,
+    'Next.js': SiNextdotjs,
+    'React Native': SiReact,
+    'Expo': SiExpo,
+    'OpenAI Vision API': SiOpenai,
+    'Gmail API': SiGmail,
+    'OAuth': FaLock,
+    'Cron': FaPlug,
+    'Prisma': SiPrisma,
   };
 
   const IconComponent = iconMap[tech];
@@ -78,7 +106,9 @@ const getTechIcon = (tech) => {
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-  const visibleProjects = projectsData.filter(p => p.status !== 'private');
+  const visibleProjects = projectsData
+    .filter(p => p.status !== 'private')
+    .sort((a, b) => a.id - b.id);
 
   return (
     <>
@@ -90,22 +120,24 @@ const Projects = () => {
             {visibleProjects.map((project) => (
               <div
                 key={project.id}
-                className="project-item"
+                className={`project-item ${project.status === 'in-progress' ? 'project-item-in-progress' : ''}`}
                 onClick={() => setSelectedProject(project)}
               >
-                <div className="project-icon-wrapper">
-                  <div className="project-icon-large">
-                    {project.iconImage ? (
-                      <img
-                        src={require(`../../data/icons/${project.iconImage}`)}
-                        alt={project.title}
-                        className="project-icon-img"
-                      />
-                    ) : (
-                      <span className="project-icon-emoji">{project.icon}</span>
-                    )}
+                {(project.iconImage || project.icon) && (
+                  <div className="project-icon-wrapper">
+                    <div className="project-icon-large">
+                      {project.iconImage ? (
+                        <img
+                          src={require(`../../data/icons/${project.iconImage}`)}
+                          alt={project.title}
+                          className="project-icon-img"
+                        />
+                      ) : (
+                        <span className="project-icon-emoji">{project.icon}</span>
+                      )}
+                    </div>
                   </div>
-                </div>
+                )}
 
                 <div className="project-content">
                   <div className="project-header-row">
@@ -124,7 +156,7 @@ const Projects = () => {
 
                   <div className="project-tech-row">
                     {project.tech.map((tech, idx) => (
-                      <span key={idx} className="tech-tag">
+                      <span key={idx} className={`tech-tag ${project.status === 'in-progress' ? 'tech-tag-in-progress' : ''}`}>
                         {getTechIcon(tech)}
                         <span className="tech-name">{tech}</span>
                       </span>
@@ -205,6 +237,20 @@ const Projects = () => {
                 </ul>
               </div>
             )}
+
+            {selectedProject.customSections && selectedProject.customSections.map((section, idx) => (
+              <div key={idx} className="modal-section">
+                <h4>{section.title}</h4>
+                {section.type === 'text' && <p>{section.content}</p>}
+                {section.type === 'list' && (
+                  <ul>
+                    {section.items.map((item, itemIdx) => (
+                      <li key={itemIdx}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
 
             {selectedProject.tech && selectedProject.tech.length > 0 && (
               <div className="modal-section">

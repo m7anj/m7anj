@@ -1,10 +1,11 @@
 [
   {
-    "id": 1,
+    "id": 5,
     "title": "Speedmates",
-    "description": "Real-time chat app for uni students to connect based on shared interests—built it because group finding was a nightmare.",
-    "detailedDescription": "Finding people at uni who were actually on your wavelength was surprisingly hard, so we built Speedmates to fix that. It's a real-time chat platform where students match based on interests and courses. Used Spring Boot for the backend because I wanted something solid, and React for the frontend. The WebSocket implementation was probably the most interesting part—getting real-time messaging to actually feel instant took some work.",
-    "tech": ["Spring Boot", "React", "WebSocket", "PostgreSQL", "Java"],
+    "iconImage": "speedmates.png",
+    "description": "Real-time chat app for uni students to connect based on shared interests. Responsible for the messaging feature of the application.",
+    "detailedDescription": "Finding people at uni who were actually on your wavelength was surprisingly hard. All the time, I knew so many people who would complain about other students 'He is so messy!', 'She always comes back late and makes too much noise!' - so we built Speedmates to fix that. It's a real-time platform where students match based on interests and courses. Used Spring Boot for the backend, and Angular for the frontend. I was moreso in charge of implementing the messaging feature, in which I was responsible in implementing it's database schema, robust authentication for Messages and Chat access, and the polling-based chat architecture.",
+    "tech": ["Spring Boot", "Jhipster", "Angular", "TypeScript", "PostgreSQL", "Java", "Liquibase"],
     "date": "2024",
     "status": "completed",
     "links": {
@@ -13,31 +14,30 @@
     "highlights": [
       "Built full real-time messaging system with WebSockets",
       "Interest-based matching algorithm for students",
-      "Actually got used by people at uni"
+      "Tested by university students with positive feedback"
     ],
     "features": [
       "Real-time messaging with instant delivery",
-      "Interest-based user matching",
-      "Course and module filtering",
+      "Messages functionality",
+      "Similarity scores between users",
       "User profiles with shared interests",
       "Group chat functionality"
     ]
   },
   {
-  "id": 2,
+  "id": 3,
   "title": "NLP News Classifier",
-  "icon": "📰",
-  "description": "An intelligent news classification system that uses real NLP techniques and neural networks to automatically understand and categorize news articles.",
-  "detailedDescription": "This project was built as a deep dive into practical natural language processing and machine learning. Instead of relying on simple keyword matching, the classifier cleans and processes raw news text, lemmatizes it using Stanford CoreNLP, transforms words into meaningful numerical representations with GloVe embeddings, and feeds them into a neural network built with DeepLearning4J. The goal was to understand how modern NLP pipelines work end to end—from raw text to structured predictions—while experimenting with vector semantics, optimization strategies, and preprocessing techniques. It’s not just a demo; it’s a hands-on exploration of how machines learn to read the news.",
+  "description": "An intelligent news classification system that uses real NLP techniques and neural networks to automatically understand and categorise news articles.",
+  "detailedDescription": "This project was built as a deep dive into practical natural language processing and machine learning for my Object-Oriented Programming module. Instead of relying on simple keyword matching, the classifier cleans and processes raw news text, lemmatises it using Stanford CoreNLP, transforms words into meaningful numerical representations with GloVe embeddings, and feeds them into a neural network built with DeepLearning4J. The goal was to understand how modern NLP pipelines work end to end, while experimenting with vector semantics, optimisation strategies, and preprocessing techniques.",
   "tech": [
     "Java",
-    "Natural Language Processing",
+    "NLP",
     "Machine Learning",
     "Stanford CoreNLP",
     "DeepLearning4J",
     "GloVe"
   ],
-  "date": "2024",
+  "date": "2023",
   "status": "completed",
   "links": {
     "repo": "https://github.com/m7anj/AdvancedNewsClassifier"
@@ -45,76 +45,152 @@
   "highlights": [
     "Neural-network-based news classification",
     "Word embeddings with pre-trained GloVe vectors",
-    "Full NLP preprocessing pipeline with lemmatization and stop-word removal"
+    "Full NLP preprocessing pipeline with lemmatisation and stop-word removal"
   ],
   "features": [
-    "Automatic categorization of news articles",
-    "Text cleaning and normalization",
-    "Lemmatization using Stanford CoreNLP",
+    "Automatic categorisation of news articles",
+    "Text cleaning and normalisation",
+    "Lemmatisation using Stanford CoreNLP",
     "Semantic word representation via GloVe embeddings",
-    "Neural network training optimized with Adam optimizer",
+    "Neural network training optimised with Adam optimiser",
     "Support for multiple news categories"
   ]
 },
   {
-    "id": 3,
+    "id": 2,
     "title": "Lyra - Voice-to-Music Platform",
-    "icon": "🎵",
+    "iconImage": "lyra.png",
     "description": "During BirmingHack 2025, we built a voice-to-music platform that turns voice descriptions into actual music using Deepgram's API.",
-    "detailedDescription": "Hackathon project that we wanted to use, since Neuphonic was there (they provide ultra low-latency TTS API's), and we wanted to win a bounty they had set out. The idea was simple... describe what you want to hear, and it generates music for you. Used Deepgram's API specifically for voice recognition because it's fast, then built the music generation on top. Had 48 hours to build it, so the code isn't perfect, and we used tools like Claude Code and Cursor to help with our short-lived planning and development, but it worked well enough to win. Judges seemed impressed by how quickly it could go from 'Stop, wait a minute' to a preview of 'Uptown Funk from Bruno Mars' they were singing.",
+    "detailedDescription": "Hackathon project that we wanted to use, since Neuphonic representatives were present (they provide ultra low-latency TTS API's), and we wanted to win a bounty they had set out. The idea was simple... describe what you want to hear, and it generates music for you. Used Deepgram's API specifically for voice recognition because it's fast, then built the UI and visualisation of spotify embedding on top. We had only 48 hours to build it, which taught me alot about the importance of planning and development, and we used tools like Claude Code and Cursor to help with our short-lived planning and development, but it worked well enough to win. Judges seemed impressed by how quickly it could go from 'Stop, wait a minute' to a preview of 'Uptown Funk from Bruno Mars' they were singing.",
     "tech": ["Deepgram API", "Python", "React", "Node.js"],
     "date": "Jan 2025",
     "status": "completed",
     "links": {
+      "repo": "https://github.com/yousefabukar/prototype-design",
       "demo": "https://youtu.be/pVjNPJCaHSw"
     },
     "highlights": [
-      "Won BirmingHack 2025",
+      "Participated in BirmingHack 2025",
       "Real-time voice processing",
-      "Built in 48 hours"
+      "Built in 48 hours",
+      "High-pressure environment",
+      "Planning and development",
+      "AI-Assisted Development"
     ],
     "features": [
       "Voice-to-text with Deepgram",
-      "Natural language music generation",
-      "Real-time audio playback",
-      "Genre and mood customization"
+      "Used Genius API to get lyrics",
+      "Spotify embedding music generation"
     ]
   },
   {
     "id": 4,
     "title": "ResumeTail",
-    "description": "Chrome extension that suggests resume improvements based on job postings—currently building this.",
-    "detailedDescription": "Got tired of manually tweaking my resume for every application, so I'm building a Chrome extension that does it for me. You're looking at a job posting, click the extension, and it analyzes both the posting and your resume to suggest specific improvements. Still working on it, but the AI integration is coming together nicely. Uses Claude's API to understand context properly rather than just keyword stuffing.",
+    "iconImage": "resumetail.png",
+    "description": "Chrome extension that suggests resume improvements based on job postings.",
+    "detailedDescription": "I got so tired of manually tweaking my resume for every application, so I built a Chrome extension that does it for me. So, when you're on LinkedIn with a job posting on your screen, click the extension, and it 1. screenscrapes the job posting and 2. parses your resume into a json object and then analyses both the posting and your resume to suggest specific improvements. Uses Groq's API Services and specifically the Claude Sonnet 3.5 model (though, you can clone the repository and configure a different model or even a local model). Once you submit your resume, you get AI-driven insights and suggestions based on what your resume has and what the job posting specifically wants. You are given things like a similarity score, a list of high-impact changes, low-impact changes, and some general structural changes for your resume. Resumes are stored in chrome.localstorage, so your device is essentially storing the data for you, no external servers.",
     "tech": ["JavaScript", "Chrome Extension API", "Claude API", "React"],
     "date": "2025",
-    "status": "in-progress",
+    "status": "completed",
     "links": {
-      "repo": "https://github.com/m7anj/resumetail"
+      "repo": "https://github.com/m7anj/resumetail",
+      "demo": "https://www.linkedin.com/posts/manjeevtakhar_chromeextension-jobsearch-sideproject-ugcPost-7388985697983942656-FBky?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp-wtoB3-ctY58klQOgpk3O1mi-5mEprpA"
     },
     "highlights": [
       "AI-powered resume analysis",
+      "Robust screenscraping",
       "Job description parsing",
       "Context-aware suggestions"
     ],
     "features": [
+      "Similarity percentage based on your resume and job posting",
       "One-click job posting analysis",
-      "Resume optimization suggestions",
-      "Keyword gap identification",
-      "Before/after comparison",
-      "Export optimized versions"
+      "Resume optimisation suggestions",
+      "Keyword gap identification"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TechPad",
+    "iconImage": "techpad.png",
+    "description": "AI-powered technical interview platform with real-time voice conversations, multi-modal response tools, and automated scoring with detailed feedback.",
+    "detailedDescription": "Built a full-stack interview prep platform that actually feels like talking to a real interviewer. The AI generates contextual follow-up questions based on your answers, not just a rigid script. Used WebSockets for real-time voice interaction with ElevenLabs TTS for natural speech. Implemented a weighted scoring system across technical knowledge, problem-solving, and communication. Added Monaco Editor, whiteboard, and webcam support so you can code, draw diagrams, or just talk through problems. Integrated Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk and JWT token authentication for user management, and Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk with JTW Token Auth", 
+    "tech": ["React", "TypeScript", "Express", "WebSocket", "PostgreSQL", "Prisma", "Groq API", "ElevenLabs", "Clerk", "Stripe"],
+    "date": "2024-2025",
+    "status": "completed",
+    "links": {
+      "demo": "https://techpad.app"
+    },
+    "highlights": [
+      "Real-time voice interviews with adaptive AI questioning",
+      "Multi-modal tools: code editor, whiteboard, webcam",
+      "Weighted scoring engine with dimensional feedback",
+      "Stripe subscription system with webhook automation"
+    ],
+    "features": [
+      "WebSocket-based real-time communication",
+      "Monaco code editor with syntax highlighting",
+      "Canvas whiteboard for diagrams",
+      "AI-powered contextual follow-ups",
+      "Free tier (3 interviews) and Pro tier (unlimited)",
+      "Question caching to reduce API costs",
+      "Interview history with searchable feedback",
+      "Session tokens with 3hr expiry for security"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "relaiy.io",
+    "iconImage": "relaiy.png",
+    "description": "Gmail automation tool that turns plain English descriptions into safe, reviewable workflows—no code or complex rules required.",
+    "detailedDescription": "Got frustrated with Zapier's confusing interface and thought there had to be a better way. Building a system where you describe what you want your emails to do in plain English, and it generates a structured, deterministic configuration you can review before anything runs. The key principle: LLMs only generate configs, execution is fully deterministic and safe. Currently working on the config engine that converts natural language into validated primitives. Planning features like dry-run playground on historical emails, action logging, and version control for workflows. Use cases include job application follow-ups, client onboarding, and anything repetitive that shouldn't need a CS degree to automate.",
+    "tech": ["Next.js", "React", "Node.js", "Express", "PostgreSQL", "Gmail API", "OAuth", "Cron"],
+    "date": "2025",
+    "status": "in-progress",
+    "highlights": [
+      "Natural language to safe config generation",
+      "LLM for config only, deterministic execution",
+      "Dry-run playground with historical emails",
+      "Human-readable summaries before activation"
+    ],
+    "features": [
+      "Connect Gmail via OAuth",
+      "Describe workflows in plain English",
+      "Review generated configs before execution",
+      "Simulate actions without sending emails",
+      "Automated scheduling with cron jobs",
+      "Action logging and versioning",
+      "Pause, edit, or version control workflows"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "UniEats",
+    "iconImage": "unieats.png",
+    "description": "A smart recipe app for university students that turns fridge photos into meal ideas using what you already have.",
+    "detailedDescription": "Early-stage project solving a real student problem: staring at your fridge with no idea what to make. Snap a photo, AI identifies ingredients, you select what's actually yours (ignore roommate's stuff), and get recipe suggestions filtered by your needs—quick meals, high protein, budget-friendly, whatever. Working backwards from what you have rather than assuming you'll go shopping. Planning smart filters for time, fitness goals, and skill level, plus features like expiry tracking and meal prep planning.",
+    "tech": ["React Native", "Expo", "Express", "OpenAI Vision API", "Vercel"],
+    "date": "2025",
+    "status": "in-progress",
+    "features": [
+      "Camera/gallery photo capture",
+      "AI ingredient detection from fridge photos",
+      "Manual selection of available ingredients",
+      "Recipe suggestions with niche filters",
+      "Time-based and fitness-focused meal options"
     ]
   },
   {
     "id": 7,
     "title": "Personal Portfolio Website",
-    "icon": "🌐",
-    "description": "The site you're looking at—built from scratch using my own initiative and AI-assisted development because I wanted full control over everything.",
+    "description": "The site you're looking at lol, built using my own interest in developing clean and concise UI's ",
     "detailedDescription": "Could've used a template, but that isn't unique enough. So, using AI tools and UI/UX design strategies, I built a portfolio site in React to showcase projects and experience. Focused on clean design, fast load times, and actually being responsive on mobile. It's also a chance to experiment with new tech and design ideas without clients being up my *ss!",
     "tech": ["React", "JavaScript", "CSS", "Netlify"],
     "date": "2024",
     "status": "completed",
     "links": {
-      "demo": "https://manjeev.fun"
+      "demo": "https://manjeev.fun",
+      "repo": "https://github.com/m7anj/m7anj"
     },
     "features": [
       "Responsive design that actually works",
