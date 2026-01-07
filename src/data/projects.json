@@ -113,13 +113,14 @@
     "id": 1,
     "title": "TechPad",
     "iconImage": "techpad.png",
-    "description": "AI-powered technical interview platform with real-time voice conversations, multi-modal response tools, and automated scoring with detailed feedback.",
+    "description": "AI-powered technical interview platform with real-time voice conversations, whiteboard and codepads to help users explain answers more accurately, and automated scoring with detailed feedback.",
     "detailedDescription": "Built a full-stack interview prep platform that actually feels like talking to a real interviewer. The AI generates contextual follow-up questions based on your answers, not just a rigid script. Used WebSockets for real-time voice interaction with ElevenLabs TTS for natural speech. Implemented a weighted scoring system across technical knowledge, problem-solving, and communication. Added Monaco Editor, whiteboard, and webcam support so you can code, draw diagrams, or just talk through problems. Integrated Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk and JWT token authentication for user management, and Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk with JTW Token Auth", 
     "tech": ["React", "TypeScript", "Express", "WebSocket", "PostgreSQL", "Prisma", "Groq API", "ElevenLabs", "Clerk", "Stripe"],
     "date": "2024-2025",
     "status": "completed",
     "links": {
-      "demo": "https://techpad.app"
+      "demo": "https://techpad.app",
+      "repo": "https://github.com/m7anj/unieats"
     },
     "highlights": [
       "Real-time voice interviews with adaptive AI questioning",
@@ -135,18 +136,21 @@
       "Free tier (3 interviews) and Pro tier (unlimited)",
       "Question caching to reduce API costs",
       "Interview history with searchable feedback",
-      "Session tokens with 3hr expiry for security"
+      "Session tokens functionality"
     ]
   },
   {
     "id": 6,
     "title": "relaiy.io",
     "iconImage": "relaiy.png",
-    "description": "Gmail automation tool that turns plain English descriptions into safe, reviewable workflows—no code or complex rules required.",
-    "detailedDescription": "Got frustrated with Zapier's confusing interface and thought there had to be a better way. Building a system where you describe what you want your emails to do in plain English, and it generates a structured, deterministic configuration you can review before anything runs. The key principle: LLMs only generate configs, execution is fully deterministic and safe. Currently working on the config engine that converts natural language into validated primitives. Planning features like dry-run playground on historical emails, action logging, and version control for workflows. Use cases include job application follow-ups, client onboarding, and anything repetitive that shouldn't need a CS degree to automate.",
+    "description": "Gmail automation tool that turns plain English descriptions into safe, reviewable workflows. Essentially a no-code config creator for Gmail workflows.",
+    "detailedDescription": "Got frustrated with Zapier's confusing interface and thought there had to be a better way. So, I am working on a system where you describe through natural language what you would like an 'Email worker' to schedule, and it generates a structured, deterministic configuration you can review before anything runs. The key principle: LLMs only generate configs, execution is fully deterministic, safe, and that the discretion of the user. Currently working on the config engine that converts natural language into primitives. Planning features like dry-run playground on test emails, action logging, and a version control system for workflows. Use cases include job application follow-ups, client onboarding, and anything repetitive.",
     "tech": ["Next.js", "React", "Node.js", "Express", "PostgreSQL", "Gmail API", "OAuth", "Cron"],
     "date": "2025",
     "status": "in-progress",
+    "links": {
+      "repo": "https://github.com/m7anj/relaiy.io"
+    },
     "highlights": [
       "Natural language to safe config generation",
       "LLM for config only, deterministic execution",
@@ -156,11 +160,11 @@
     "features": [
       "Connect Gmail via OAuth",
       "Describe workflows in plain English",
-      "Review generated configs before execution",
-      "Simulate actions without sending emails",
-      "Automated scheduling with cron jobs",
-      "Action logging and versioning",
-      "Pause, edit, or version control workflows"
+      "Review generated configs before execution (to-do)",
+      "Simulate actions without sending emails (to-do)",
+      "Automated scheduling with cron jobs (to-do)",
+      "Action logging and versioning (to-do)",
+      "Pause, edit, or version control workflows (to-do)"
     ]
   },
   {
@@ -168,24 +172,27 @@
     "title": "UniEats",
     "iconImage": "unieats.png",
     "description": "A smart recipe app for university students that turns fridge photos into meal ideas using what you already have.",
-    "detailedDescription": "Early-stage project solving a real student problem: staring at your fridge with no idea what to make. Snap a photo, AI identifies ingredients, you select what's actually yours (ignore roommate's stuff), and get recipe suggestions filtered by your needs—quick meals, high protein, budget-friendly, whatever. Working backwards from what you have rather than assuming you'll go shopping. Planning smart filters for time, fitness goals, and skill level, plus features like expiry tracking and meal prep planning.",
+    "detailedDescription": "One time, I caught myself staring at my fridge with no idea what to make. With UniEats, which is designed for lazy university students (like myself), you are able to snap a photo, AI identifies ingredients, you select what's actually yours (ignore roommate's stuff), and get recipe suggestions filtered by your needs—quick meals, high protein, budget-friendly, whatever. Working backwards from what you have rather than assuming you'll go shopping. Planning smart filters for time, fitness goals, and skill level, plus features like expiry tracking and meal prep planning.",
     "tech": ["React Native", "Expo", "Express", "OpenAI Vision API", "Vercel"],
     "date": "2025",
     "status": "in-progress",
+    "links": {
+      "repo": "https://github.com/m7anj/unieats"
+    },
     "features": [
       "Camera/gallery photo capture",
-      "AI ingredient detection from fridge photos",
-      "Manual selection of available ingredients",
-      "Recipe suggestions with niche filters",
-      "Time-based and fitness-focused meal options"
+      "AI ingredient detection from fridge photos (to-do)",
+      "Manual selection of available ingredients (to-do)",
+      "Recipe suggestions with niche filters (to-do)",
+      "Time-based and fitness-focused meal options (to-do)"
     ]
   },
   {
     "id": 7,
-    "title": "Personal Portfolio Website",
-    "description": "The site you're looking at lol, built using my own interest in developing clean and concise UI's ",
-    "detailedDescription": "Could've used a template, but that isn't unique enough. So, using AI tools and UI/UX design strategies, I built a portfolio site in React to showcase projects and experience. Focused on clean design, fast load times, and actually being responsive on mobile. It's also a chance to experiment with new tech and design ideas without clients being up my *ss!",
-    "tech": ["React", "JavaScript", "CSS", "Netlify"],
+    "title": "Portfolio Website",
+    "description": "A showcase of my motivations, my work experience, my skills, and my projects. You are literally looking at it. :/",
+    "detailedDescription": "Could've used a template, but that isn't unique enough. So, using AI tools and UI/UX design strategies, I built a portfolio site in React to showcase projects and experience. Focused on clean design, fast load times, and actually being responsive on mobile. It's also a chance to experiment with new tech and design ideas without external requirements being up my *ss!",
+    "tech": ["React", "JavaScript", "CSS", "Vercel"],
     "date": "2024",
     "status": "completed",
     "links": {
