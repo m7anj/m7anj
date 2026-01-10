@@ -5,7 +5,15 @@
     "iconImage": "speedmates.png",
     "description": "Real-time chat app for uni students to connect based on shared interests. Responsible for the messaging feature of the application.",
     "detailedDescription": "Finding people at uni who were actually on your wavelength was surprisingly hard. All the time, I knew so many people who would complain about other students 'He is so messy!', 'She always comes back late and makes too much noise!' - so we built Speedmates to fix that. It's a real-time platform where students match based on interests and courses. Used Spring Boot for the backend, and Angular for the frontend. I was moreso in charge of implementing the messaging feature, in which I was responsible in implementing it's database schema, robust authentication for Messages and Chat access, and the polling-based chat architecture.",
-    "tech": ["Spring Boot", "Jhipster", "Angular", "TypeScript", "PostgreSQL", "Java", "Liquibase"],
+    "tech": [
+      "Spring Boot",
+      "Jhipster",
+      "Angular",
+      "TypeScript",
+      "PostgreSQL",
+      "Java",
+      "Liquibase"
+    ],
     "date": "2024",
     "status": "completed",
     "links": {
@@ -25,37 +33,37 @@
     ]
   },
   {
-  "id": 3,
-  "title": "NLP News Classifier",
-  "description": "An intelligent news classification system that uses real NLP techniques and neural networks to automatically understand and categorise news articles.",
-  "detailedDescription": "This project was built as a deep dive into practical natural language processing and machine learning for my Object-Oriented Programming module. Instead of relying on simple keyword matching, the classifier cleans and processes raw news text, lemmatises it using Stanford CoreNLP, transforms words into meaningful numerical representations with GloVe embeddings, and feeds them into a neural network built with DeepLearning4J. The goal was to understand how modern NLP pipelines work end to end, while experimenting with vector semantics, optimisation strategies, and preprocessing techniques.",
-  "tech": [
-    "Java",
-    "NLP",
-    "Machine Learning",
-    "Stanford CoreNLP",
-    "DeepLearning4J",
-    "GloVe"
-  ],
-  "date": "2023",
-  "status": "completed",
-  "links": {
-    "repo": "https://github.com/m7anj/AdvancedNewsClassifier"
+    "id": 3,
+    "title": "NLP News Classifier",
+    "description": "An intelligent news classification system that uses real NLP techniques and neural networks to automatically understand and categorise news articles.",
+    "detailedDescription": "This project was built as a deep dive into practical natural language processing and machine learning for my Object-Oriented Programming module. Instead of relying on simple keyword matching, the classifier cleans and processes raw news text, lemmatises it using Stanford CoreNLP, transforms words into meaningful numerical representations with GloVe embeddings, and feeds them into a neural network built with DeepLearning4J. The goal was to understand how modern NLP pipelines work end to end, while experimenting with vector semantics, optimisation strategies, and preprocessing techniques.",
+    "tech": [
+      "Java",
+      "NLP",
+      "Machine Learning",
+      "Stanford CoreNLP",
+      "DeepLearning4J",
+      "GloVe"
+    ],
+    "date": "2023",
+    "status": "completed",
+    "links": {
+      "repo": "https://github.com/m7anj/AdvancedNewsClassifier"
+    },
+    "highlights": [
+      "Neural-network-based news classification",
+      "Word embeddings with pre-trained GloVe vectors",
+      "Full NLP preprocessing pipeline with lemmatisation and stop-word removal"
+    ],
+    "features": [
+      "Automatic categorisation of news articles",
+      "Text cleaning and normalisation",
+      "Lemmatisation using Stanford CoreNLP",
+      "Semantic word representation via GloVe embeddings",
+      "Neural network training optimised with Adam optimiser",
+      "Support for multiple news categories"
+    ]
   },
-  "highlights": [
-    "Neural-network-based news classification",
-    "Word embeddings with pre-trained GloVe vectors",
-    "Full NLP preprocessing pipeline with lemmatisation and stop-word removal"
-  ],
-  "features": [
-    "Automatic categorisation of news articles",
-    "Text cleaning and normalisation",
-    "Lemmatisation using Stanford CoreNLP",
-    "Semantic word representation via GloVe embeddings",
-    "Neural network training optimised with Adam optimiser",
-    "Support for multiple news categories"
-  ]
-},
   {
     "id": 2,
     "title": "Lyra - Voice-to-Music Platform",
@@ -114,13 +122,24 @@
     "title": "TechPad",
     "iconImage": "techpad.png",
     "description": "AI-powered technical interview platform with real-time voice conversations, whiteboard and codepads to help users explain answers more accurately, and automated scoring with detailed feedback.",
-    "detailedDescription": "Built a full-stack interview prep platform that actually feels like talking to a real interviewer. The AI generates contextual follow-up questions based on your answers, not just a rigid script. Used WebSockets for real-time voice interaction with ElevenLabs TTS for natural speech. Implemented a weighted scoring system across technical knowledge, problem-solving, and communication. Added Monaco Editor, whiteboard, and webcam support so you can code, draw diagrams, or just talk through problems. Integrated Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk and JWT token authentication for user management, and Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk with JTW Token Auth", 
-    "tech": ["React", "TypeScript", "Express", "WebSocket", "PostgreSQL", "Prisma", "Groq API", "ElevenLabs", "Clerk", "Stripe"],
+    "detailedDescription": "Built a full-stack interview prep platform that actually feels like talking to a real interviewer. The AI generates contextual follow-up questions based on your answers, not just a rigid script. Used WebSockets for real-time voice interaction with ElevenLabs TTS for natural speech. Implemented a weighted scoring system across technical knowledge, problem-solving, and communication. Added Monaco Editor, whiteboard, and webcam support so you can code, draw diagrams, or just talk through problems. Integrated Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk and JWT token authentication for user management, and Stripe for subscriptions with a free tier (3 interviews) and unlimited pro access. The scoring engine analyses the entire conversation to provide evidence-based feedback rather than generic tips. Implemented Clerk with JTW Token Auth",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Express",
+      "WebSocket",
+      "PostgreSQL",
+      "Prisma",
+      "Groq API",
+      "ElevenLabs",
+      "Clerk",
+      "Stripe"
+    ],
     "date": "2024-2025",
     "status": "completed",
     "links": {
       "demo": "https://techpad.app",
-      "repo": "https://github.com/m7anj/unieats"
+      "repo": "https://github.com/m7anj/techpad.app"
     },
     "highlights": [
       "Real-time voice interviews with adaptive AI questioning",
@@ -145,7 +164,16 @@
     "iconImage": "relaiy.png",
     "description": "Gmail automation tool that turns plain English descriptions into safe, reviewable workflows. Essentially a no-code config creator for Gmail workflows.",
     "detailedDescription": "Got frustrated with Zapier's confusing interface and thought there had to be a better way. So, I am working on a system where you describe through natural language what you would like an 'Email worker' to schedule, and it generates a structured, deterministic configuration you can review before anything runs. The key principle: LLMs only generate configs, execution is fully deterministic, safe, and that the discretion of the user. Currently working on the config engine that converts natural language into primitives. Planning features like dry-run playground on test emails, action logging, and a version control system for workflows. Use cases include job application follow-ups, client onboarding, and anything repetitive.",
-    "tech": ["Next.js", "React", "Node.js", "Express", "PostgreSQL", "Gmail API", "OAuth", "Cron"],
+    "tech": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Gmail API",
+      "OAuth",
+      "Cron"
+    ],
     "date": "2025",
     "status": "in-progress",
     "links": {

@@ -1,8 +1,19 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
-import { SiLeetcode, SiJavascript, SiTypescript, SiPython, SiReact, SiSpringboot, SiExpress, SiPostgresql, SiGit, SiOpenjdk } from 'react-icons/si';
-import profilePic from '../../materials/me.jpeg';
-import './Hero.css';
+import React from "react";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  SiLeetcode,
+  SiJavascript,
+  SiTypescript,
+  SiPython,
+  SiReact,
+  SiSpringboot,
+  SiExpress,
+  SiPostgresql,
+  SiGit,
+  SiOpenjdk,
+} from "react-icons/si";
+import profilePic from "../../materials/me.jpeg";
+import "./Hero.css";
 
 const Hero = () => {
   return (
@@ -14,29 +25,29 @@ const Hero = () => {
 
         <h1>Manjeev Takhar</h1>
         <p className="hero-subtitle">
-          I am a Computer Science Student at the University of Birmingham 
-          (currently on leave to find work experience before graduation).
-          I enjoy building projects, tools and systems to make an impact 
-          in the world, for both myself and the people around me.
+          I am a Computer Science Student at the University of Birmingham
+          (currently on leave to find work experience before graduation). I
+          enjoy building projects, tools and systems to make an impact in the
+          world, for both myself and the people around me.
         </p>
 
         <p className="hero-bio">
-           Currently exploring the world of startups, low-level security
-            and system's programming concepts, and creating tools that 
-            make our lives easier.
-
-          <p style={{
-            fontStyle:'italic',
-            fontSize:"10px",
-            paddingTop:"10px",
-            color:"#555"
-          }}>Currently working on
-            <a href = "https://techpad.app"> techpad.app</a>
-          ! could do with a bit of help lol @m7anj on discord pls
+          Currently exploring the world of startups, low-level security and
+          system's programming concepts, and creating tools that make our lives
+          easier.
+          <p
+            style={{
+              fontStyle: "italic",
+              fontSize: "10px",
+              paddingTop: "10px",
+              color: "#555",
+            }}
+          >
+            Currently working on
+            <a href="https://www.github.com/m7anj/relaiy.io"> relaiy.io</a>!
+            could do with a bit of help lol @m7anj on discord pls
           </p>
         </p>
-
-        
 
         <div className="hero-tech">
           <h3>Technologies</h3>
@@ -81,16 +92,36 @@ const Hero = () => {
         </div>
 
         <div className="hero-links">
-          <a href="https://github.com/m7anj" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a
+            href="https://github.com/m7anj"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
             <FaGithub size={20} />
           </a>
-          <a href="https://linkedin.com/in/manjeevtakhar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a
+            href="https://linkedin.com/in/manjeevtakhar"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
             <FaLinkedin size={20} />
           </a>
-          <a href="https://youtube.com/@alludetech" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <a
+            href="https://youtube.com/@alludetech"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
             <FaYoutube size={20} />
           </a>
-          <a href="https://leetcode.com/u/m7anj/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+          <a
+            href="https://leetcode.com/u/m7anj/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LeetCode"
+          >
             <SiLeetcode size={20} />
           </a>
         </div>
