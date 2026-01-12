@@ -6,15 +6,20 @@
 
 ## my stack
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=openjdk&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript)
+![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python)
+![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk)
+
+![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs)
+![Expo](https://img.shields.io/badge/Expo-111111?style=flat-square&logo=expo)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-111111?style=flat-square&logo=springboot)
+![Express](https://img.shields.io/badge/Express-111111?style=flat-square&logo=express)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql)
+![Prisma](https://img.shields.io/badge/Prisma-111111?style=flat-square&logo=prisma)
+![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git)
 
 ## socials
 
