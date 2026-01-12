@@ -21,7 +21,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql)
 ![Prisma](https://img.shields.io/badge/Prisma-111111?style=flat-square&logo=prisma)
 ![Liquibase](https://img.shields.io/badge/Liquibase-111111?style=flat-square&logo=liquibase)
-![Git](https://img.shields.io)
+![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git)
 
 
 ## socials
