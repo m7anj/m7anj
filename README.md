@@ -25,8 +25,8 @@
 
 ## contact me
 
-🔗 [LinkedIn](https://linkedin.com/in/manjeevtakhar) ·
-📧 [Email](mailto:manjeevsinghtakhar@gmail.com) ·
-🌐 [Website](https://manjeev.fun) ·
-▶️ [YouTube](https://youtube.com/@alludetech)
+[linkedin](https://linkedin.com/in/manjeevtakhar) ·
+[email](mailto:manjeevsinghtakhar@gmail.com) ·
+[website](https://manjeev.fun) ·
+[youtube](https://youtube.com/@alludetech)
 
