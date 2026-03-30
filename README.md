@@ -1,8 +1,7 @@
 # manj
 
 - cs undergrad @ University of Birmingham
-- BirmingHack 2026 Winner
-- tech inthusiast
+- hackathon winner
 - i love problem-solving, everything i do is either to help myself or others around the world
 
 ## my stack
